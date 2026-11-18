@@ -1,13 +1,13 @@
 # Laboratorios S10–S14 · Nikolai Suarez
 
-Entrega de cinco laboratorios, organizada por semana. Cada carpeta contiene la guía DOCX original y una nota de orientación. El proyecto está en [`proyecto/`](proyecto/README.md) y compila en conjunto.
+Entrega separada por laboratorio. Cada carpeta contiene el DOCX original, su README y un PDF individual con resumen, capturas de código y respuestas. El proyecto fuente está en [`proyecto/`](proyecto/README.md).
 
-- [Semana 10 — Ambientes y CRUD](semana-10/README.md)
-- [Semana 11 — Microservicios y clínica](semana-11/README.md)
-- [Semana 12 — Eureka y OpenFeign](semana-12/README.md)
-- [Semana 13 — API Gateway](semana-13/README.md)
-- [Semana 14 — Config Server y resiliencia](semana-14/README.md)
-- [Informe PDF con capturas de código, respuestas y conclusiones](Informe_Laboratorios_S10-S14_Suarez.pdf)
-- [Capturas de código](evidencias/codigo/)
+- [Semana 10 — guía, código y PDF](semana-10/README.md) · [PDF](semana-10/Lab10_Suarez.pdf)
+- [Semana 11 — guía, código y PDF](semana-11/README.md) · [PDF](semana-11/Lab11_Suarez.pdf)
+- [Semana 12 — guía, código y PDF](semana-12/README.md) · [PDF](semana-12/Lab12_Suarez.pdf)
+- [Semana 13 — guía, código y PDF](semana-13/README.md) · [PDF](semana-13/Lab13_Suarez.pdf)
+- [Semana 14 — guía, código y PDF](semana-14/README.md) · [PDF](semana-14/Lab14_Suarez.pdf)
 
-Autor: Nikolai Alexander Suarez Núñez · Java package `com.suarez`.
+Las capturas de código también están disponibles en [`evidencias/codigo/`](evidencias/codigo/).
+
+Autor: Nikolai Alexander Suarez Núñez · Java `com.suarez`.
