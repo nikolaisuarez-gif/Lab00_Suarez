@@ -14,6 +14,12 @@ resilience4j:
         slidingWindowSize: 5
         minimumNumberOfCalls: 3
         failureRateThreshold: 50
+        waitDurationInOpenState: 10s
+      productoService:
+        slidingWindowSize: 5
+        minimumNumberOfCalls: 3
+        failureRateThreshold: 50
+        waitDurationInOpenState: 10s
   retry:
     instances:
       clienteService:

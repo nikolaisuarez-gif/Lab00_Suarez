@@ -4,9 +4,18 @@ spring:
   application:
     name: config-server
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-locations: file:./config-server/config-repo
+        git:
+          uri: ${CONFIG_REPO_URI:https://github.com/nikolaisuarez-gif/Lab00_Suarez.git}
+          default-label: main
+          search-paths:
+            - laboratorios-s10-s14/proyecto/config-server/config-repo
+          clone-on-start: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
