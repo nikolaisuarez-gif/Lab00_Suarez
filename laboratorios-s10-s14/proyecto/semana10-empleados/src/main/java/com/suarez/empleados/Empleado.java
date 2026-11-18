@@ -1,0 +1,1 @@
+package com.suarez.empleados; import jakarta.validation.constraints.*; import java.math.BigDecimal; public record Empleado(Long id,@NotBlank String nombres,@NotBlank String apellidos,@Email @NotBlank String email,@Positive BigDecimal sueldo) {}

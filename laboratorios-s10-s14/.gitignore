@@ -1,0 +1,6 @@
+**/target/
+/_render/
+/generar_pdf.py
+/fix*.py
+/completar_*.py
+/refresh_docs.py

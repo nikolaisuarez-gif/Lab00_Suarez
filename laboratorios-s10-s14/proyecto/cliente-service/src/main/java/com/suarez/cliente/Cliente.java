@@ -1,0 +1,1 @@
+package com.suarez.cliente; import jakarta.validation.constraints.*; public record Cliente(Long id,@NotBlank String nombre,@NotBlank String apellido,@NotBlank String direccion,@NotBlank @Pattern(regexp="\\d{8}") String nroDni,@NotBlank String estado) {}

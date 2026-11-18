@@ -1,0 +1,8 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: producto-service
+empresa:
+  ambiente: desarrollo
+mensaje: Configuración remota de Suarez cargada

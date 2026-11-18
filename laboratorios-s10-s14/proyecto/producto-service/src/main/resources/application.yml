@@ -1,0 +1,16 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: producto-service
+  profiles:
+    active: dev
+  config:
+    import: optional:configserver:http://localhost:8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+simulacion:
+  demora-ms: ${SIMULACION_PRODUCTO_MS:0}
